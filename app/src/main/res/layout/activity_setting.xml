@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context="com.cheyifu.icar.tabMy.activity.SettingActivity">
+    <include style="@style/default_layout"
+        layout="@layout/base_title_bar"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/x90"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="@dimen/x40"
+            android:layout_height="@dimen/x40"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginRight="@dimen/x12"
+            android:background="@drawable/notice" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/x20">
+
+            <ToggleButton
+                android:id="@+id/close_open"
+                android:layout_width="@dimen/x100"
+                android:layout_height="@dimen/x60"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:button="@drawable/togglebutton_selector"
+                android:checked="true"
+                android:text=""
+                android:textOff=""
+                android:textOn="" />
+
+
+            <TextView
+                style="@style/default_layout"
+                android:layout_centerVertical="true"
+                android:text="@string/message_notify"
+                android:textSize="14.0sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/x90"
+        android:layout_marginTop="@dimen/x40"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="@dimen/x40"
+            android:layout_height="@dimen/x40"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginRight="@dimen/x12"
+            android:background="@drawable/idear_back" />
+
+        <RelativeLayout
+            android:id="@+id/idear_back"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/x20">
+
+            <ImageView style="@style/default_back_iv" />
+
+            <TextView
+                style="@style/default_layout"
+                android:layout_centerVertical="true"
+                android:text="@string/idea_back"
+                android:textSize="14.0sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/x90"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="@dimen/x40"
+            android:layout_height="@dimen/x40"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginRight="@dimen/x12"
+            android:background="@drawable/zhuyeicon58" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10.0dip">
+
+            <ImageView style="@style/default_back_iv" />
+
+            <TextView
+                style="@style/default_layout"
+                android:layout_centerVertical="true"
+                android:text="@string/help"
+                android:textSize="14.0sp" />
+        </RelativeLayout>
+    </LinearLayout>
+-->
+    <LinearLayout
+        android:id="@+id/mine_fragment_friend"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/x90"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="@dimen/x40"
+            android:layout_height="@dimen/x40"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginRight="@dimen/x12"
+            android:background="@drawable/edition" />
+
+        <RelativeLayout
+            android:id="@+id/check_version"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/x20">
+
+            <TextView
+                android:id="@+id/tv_vername"
+                style="@style/default_layout"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/x30"
+                android:text="v 1.0.1"
+                android:textSize="14.0sp" />
+
+            <TextView
+                style="@style/default_layout"
+                android:layout_centerVertical="true"
+                android:text="@string/version"
+                android:textSize="14.0sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_exit"
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/x100"
+        android:layout_marginLeft="@dimen/x100"
+        android:layout_height="@dimen/y80"
+        android:layout_marginTop="@dimen/x100"
+        android:background="@drawable/bg_button">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="退出登录"
+            android:textSize="20sp"
+            android:padding="@dimen/y5"
+            android:textColor="@color/title_bar"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\develop\\Icar\\jPUSH\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "E:\\develop\\Icar\\jPUSH\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\develop\\Icar\\jPUSH\\build\\intermediates\\res\\merged\\debug\\layout\\jpush_webview_layout.xml",
+        "source": "E:\\develop\\Icar\\jPUSH\\res\\layout\\jpush_webview_layout.xml"
+    },
+    {
+        "merged": "E:\\develop\\Icar\\jPUSH\\build\\intermediates\\res\\merged\\debug\\layout\\push_set_dialog.xml",
+        "source": "E:\\develop\\Icar\\jPUSH\\res\\layout\\push_set_dialog.xml"
+    },
+    {
+        "merged": "E:\\develop\\Icar\\jPUSH\\build\\intermediates\\res\\merged\\debug\\layout\\set_push_time.xml",
+        "source": "E:\\develop\\Icar\\jPUSH\\res\\layout\\set_push_time.xml"
+    },
+    {
+        "merged": "E:\\develop\\Icar\\jPUSH\\build\\intermediates\\res\\merged\\debug\\layout\\jpush_popwin_layout.xml",
+        "source": "E:\\develop\\Icar\\jPUSH\\res\\layout\\jpush_popwin_layout.xml"
+    },
+    {
+        "merged": "E:\\develop\\Icar\\jPUSH\\build\\intermediates\\res\\merged\\debug\\layout\\customer_notitfication_layout_one.xml",
+        "source": "E:\\develop\\Icar\\jPUSH\\res\\layout\\customer_notitfication_layout_one.xml"
+    },
+    {
+        "merged": "E:\\develop\\Icar\\jPUSH\\build\\intermediates\\res\\merged\\debug\\layout\\customer_notitfication_layout.xml",
+        "source": "E:\\develop\\Icar\\jPUSH\\res\\layout\\customer_notitfication_layout.xml"
+    }
+]

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    tools:context="com.cheyifu.icar.tabPay.activity.PayActivity">
+
+    <include
+        style="@style/default_layout"
+        layout="@layout/base_title_bar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x1"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y300"
+        android:layout_marginTop="@dimen/y25"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pay_plate_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/y20"
+            android:text="服务器返回的停车场位置"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x15"
+            android:layout_marginRight="@dimen/x15"
+            android:layout_marginTop="@dimen/y25">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="入场时间"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/in_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="2012-12-12 12:12"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x15"
+            android:layout_marginRight="@dimen/x15"
+            android:layout_marginTop="@dimen/y25">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="离开时间"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/out_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="2012-12-12 12:12"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x15"
+            android:layout_marginRight="@dimen/x15"
+            android:layout_marginTop="@dimen/y25">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="车牌号码"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/pay_plate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="京 jsssss"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y25"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y90"
+            android:layout_marginLeft="@dimen/x15"
+            android:layout_marginRight="@dimen/x15"
+            android:layout_marginTop="@dimen/y25">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="停车时长"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/pay_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="0分"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y90"
+
+            android:layout_marginLeft="@dimen/x15"
+            android:layout_marginRight="@dimen/x15">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="支付金额"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/pay_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+               android:textColor="@color/tiaokuan"
+                android:text="¥ 0"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y25"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/x90"
+            android:background="@color/white"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x30"
+                android:text="请选择支付方式"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/x90"
+            android:background="@color/white"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/x40"
+                android:layout_height="@dimen/x40"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginRight="@dimen/x12"
+                android:background="@drawable/pay_ico" />
+
+            <RelativeLayout
+                android:id="@+id/zhifubao"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/x20">
+
+                <ImageView style="@style/default_back_iv" />
+
+                <TextView
+                    style="@style/default_layout"
+                    android:layout_centerVertical="true"
+                    android:text="支付宝"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/x90"
+            android:background="@color/white"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/x40"
+                android:layout_height="@dimen/x40"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginRight="@dimen/x12"
+                android:background="@drawable/wechat_ico" />
+
+            <RelativeLayout
+                android:id="@+id/wx"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10.0dip">
+
+                <ImageView style="@style/default_back_iv" />
+
+                <TextView
+                    style="@style/default_layout"
+                    android:layout_centerVertical="true"
+                    android:text="微信"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/x90"
+            android:background="@color/white"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/x40"
+                android:layout_height="@dimen/x40"
+                android:layout_marginLeft="@dimen/x30"
+                android:layout_marginRight="@dimen/x12"
+                android:background="@drawable/bank_cups" />
+
+            <RelativeLayout
+                android:id="@+id/bank"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10.0dip">
+
+                <ImageView style="@style/default_back_iv" />
+
+                <TextView
+                    style="@style/default_layout"
+                    android:layout_centerVertical="true"
+                    android:text="银行卡"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

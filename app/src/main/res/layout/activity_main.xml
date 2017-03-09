@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:background="@color/bg" />
+
+ <!--   <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/index_bg" />-->
+   <!-- <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/green_color"/>-->
+
+
+        <LinearLayout
+android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+          >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btntop_bg" />
+
+        <!--    <ImageButton
+                android:id="@+id/bt_add"
+                android:layout_marginTop="@dimen/y8"
+                android:layout_width="@dimen/x60"
+                android:layout_height="@dimen/y60"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/zhuyeicon257" />-->
+
+            <RadioGroup
+                android:id="@+id/rg_home_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="-20dp"
+              >
+
+                <RadioButton
+                    android:id="@+id/first"
+                    style="@style/bottom_style"
+                    android:drawableTop="@drawable/bootom_main_selector"
+                    android:text="@string/main" />
+
+                <RadioButton
+                    android:id="@+id/second"
+                    style="@style/bottom_style"
+                    android:layout_marginRight="@dimen/x30"
+                    android:drawableTop="@drawable/bootom_order_selector"
+                    android:text="@string/cheweiyuding" />
+
+                <RadioButton
+                    android:id="@+id/three"
+                    style="@style/bottom_style"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:drawableTop="@drawable/bootom_pay_selector"
+                    android:text="@string/tingchejiaofei" />
+
+                <RadioButton
+                    android:id="@+id/four"
+                    style="@style/bottom_style"
+                    android:drawableTop="@drawable/bootom_my_selector"
+                    android:text="@string/my" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+    <!--</FrameLayout>-->
+
+</LinearLayout>

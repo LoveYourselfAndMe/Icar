@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x150">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/circle">
+
+            <TextView
+                android:id="@+id/tv_message_car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="京"
+                android:textSize="23sp"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/rl_message"
+            android:text="B l***56"
+            android:textSize="20sp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/rl_approve"
+            android:layout_width="@dimen/x150"
+            android:layout_height="@dimen/x70"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bg_apply">
+
+            <TextView
+                android:id="@+id/tv_approve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="未认证"
+                android:textColor="@color/colorAccent"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

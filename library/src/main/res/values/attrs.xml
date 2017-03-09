@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- LoopViewPager -->
+    <declare-styleable name="LoopView">
+        <!-- 跳动时间间隔 -->
+        <attr name="loop_interval" format="integer" />
+        <!-- 是否自动跳转</br> -->
+        <attr name="loop_autoLoop" format="boolean" />
+        <!-- 指示点选择器 -->
+        <attr name="loop_dotMargin" format="dimension" />
+        <!-- 指示点间距离 -->
+        <attr name="loop_dotSelector" format="reference" />
+        <!-- 指示点间距离 -->
+        <attr name="loop_layoutId" format="reference" />
+    </declare-styleable>
+
+</resources>

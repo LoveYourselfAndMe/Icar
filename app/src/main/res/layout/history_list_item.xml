@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="@dimen/x160"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/x40"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_locke"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x60"
+            android:background="@drawable/jiaofei_btn">
+
+            <TextView
+                android:id="@+id/locake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="车辆锁定"
+                android:textColor="@color/title_bar" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/wx_pay"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x60"
+            android:layout_marginTop="@dimen/x40"
+            android:background="@drawable/jiaofei_btn">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="立即支付"
+                android:textColor="@color/title_bar" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout style="@style/history">
+
+            <TextView
+                style="@style/history_text"
+                android:text="@string/car_phone" />
+
+            <TextView
+                android:id="@+id/history_car_code"
+                style="@style/history_text"
+                android:text="京B 4****34" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/history">
+
+            <TextView
+                style="@style/history_text"
+                android:text="停  车  场 :" />
+
+            <TextView
+                android:id="@+id/car_name"
+                style="@style/history_text"
+                android:text="车易付" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/history">
+
+            <TextView
+                style="@style/history_text"
+                android:text="@string/in_time" />
+
+            <TextView
+                android:id="@+id/car_time"
+                style="@style/history_text"
+                android:text="2017-02-16  06：45：33" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/history"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                style="@style/history_text"
+                android:text="@string/state" />
+
+            <TextView
+                android:id="@+id/car_start"
+                style="@style/history_text"
+                android:text="未出场"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

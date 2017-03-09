@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.cheyifu.icar.tabMy.activity.IdearBackActivity">
+    <include
+        style="@style/default_layout"
+        layout="@layout/base_title_bar"/>
+    <RelativeLayout
+        android:layout_marginLeft="@dimen/dd_dimen_18px"
+        android:layout_marginRight="@dimen/dd_dimen_18px"
+        android:id="@+id/rl"
+        android:layout_marginTop="@dimen/x30"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dd_dimen_393px"
+        android:background="@drawable/bg_apply">
+        <EditText
+            android:id="@+id/et_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="top"
+            android:hint="请详细描述你的问题，我们将及时跟进与解决.(限制300字以内)"
+            android:maxLength="300"
+
+            android:paddingLeft="5dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="300"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_submit_idear"
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/x100"
+        android:layout_marginLeft="@dimen/x100"
+        android:layout_height="@dimen/y80"
+        android:layout_marginTop="60dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_button">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            android:textSize="20sp"
+            android:padding="@dimen/x5"
+            android:textColor="@color/title_bar"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</LinearLayout>

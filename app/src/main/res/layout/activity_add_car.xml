@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cheyifu.icar.tabHome.activity.AddCarActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_car_license_inputbox_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <include
+            style="@style/default_layout"
+            layout="@layout/base_title_bar" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/line" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:text="@string/add_car_message"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/ll_license_input_boxes_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/et_car_license_inputbox1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/car_license_inputbox"
+                android:focusable="false"
+                android:gravity="center_horizontal|center_vertical" />
+
+            <TextView
+                android:id="@+id/et_car_license_inputbox2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/car_license_inputbox"
+                android:focusable="false"
+                android:gravity="center_horizontal|center_vertical" />
+
+            <TextView
+                android:id="@+id/et_car_license_inputbox3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/car_license_inputbox"
+                android:focusable="false"
+                android:gravity="center_horizontal|center_vertical" />
+
+            <TextView
+                android:id="@+id/et_car_license_inputbox4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/car_license_inputbox"
+                android:focusable="false"
+                android:gravity="center_horizontal|center_vertical" />
+
+            <TextView
+                android:id="@+id/et_car_license_inputbox5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/car_license_inputbox"
+                android:focusable="false"
+                android:gravity="center_horizontal|center_vertical" />
+
+            <TextView
+                android:id="@+id/et_car_license_inputbox6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/car_license_inputbox"
+                android:focusable="false"
+                android:gravity="center_horizontal|center_vertical" />
+
+            <TextView
+                android:id="@+id/et_car_license_inputbox7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/car_license_inputbox"
+                android:focusable="false"
+                android:gravity="center_horizontal|center_vertical" />
+        </LinearLayout>
+
+
+        <!--  <com.cheyifu.icar.tabHome.softKey.PayEditText
+              android:id="@+id/PayEditText_pay"
+              android:layout_width="match_parent"
+              android:layout_marginTop="40dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:layout_height="48dp"/>-->
+
+        <!--    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/bg_apply"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">-->
+        <!--   <Spinner
+               android:id="@+id/sp_car"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center_vertical">
+
+           </Spinner>
+   -->
+        <!--  <com.cheyifu.icar.tabHome.softKey.SafeEdit
+              android:id="@+id/palte_code"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_centerInParent="true"
+              android:background="@null"
+              android:maxLength="6"
+              android:singleLine="true" />-->
+        <!--<View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/line"/>
+
+            <com.cheyifu.icar.tabHome.softKey.SafeEdit
+                android:id="@+id/car_code1"
+                android:layout_width="@dimen/x100"
+                android:layout_height="@dimen/x100"
+                android:layout_centerInParent="true"
+                android:background="@null"
+                android:singleLine="true"
+                />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/line"/>
+        <com.cheyifu.icar.tabHome.softKey.SafeEdit
+            android:id="@+id/car_code2"
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/x100"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:singleLine="true"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/line"/>-->
+
+
+        <!--  <com.cheyifu.icar.tabHome.softKey.SafeEdit
+              android:layout_width="@dimen/x100"
+              android:layout_height="@dimen/x100"
+              />
+          <com.cheyifu.icar.tabHome.softKey.SafeEdit
+              android:layout_width="@dimen/x100"
+              android:layout_height="@dimen/x100"
+              />
+          <com.cheyifu.icar.tabHome.softKey.SafeEdit
+              android:layout_width="@dimen/x100"
+              android:layout_height="@dimen/x100"
+              />-->
+        <!-- <EditText
+             android:id="@+id/car_code"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            android:hint="支持新能源车牌"
+           android:layout_gravity="center_vertical"
+             android:maxLength="6"
+             android:digits="._0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLIMNOPQRSTUVWXYZ"
+             android:singleLine="true"
+             android:paddingLeft="5dp"
+             />-->
+
+        <!--   </LinearLayout>-->
+
+        <Button
+            android:id="@+id/car_submit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y80"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/x100"
+            android:layout_marginRight="@dimen/x100"
+            android:layout_marginTop="@dimen/x100"
+            android:text="@string/add_car"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:enabled="false"
+            android:background="@drawable/addcar_comit_selector"
+            >
+
+           <!-- <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/add_car"
+                android:textColor="@color/white"
+                android:textSize="15sp" />-->
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboard_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#F0EFF4"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:keyBackground="@drawable/bg_white_gray_selector"
+            android:keyPreviewLayout="@layout/key_preview_layout"
+            android:keyTextColor="#5E5E5E"
+            android:keyTextSize="18sp"
+            android:labelTextSize="18sp"
+            android:paddingTop="5dp"
+            android:shadowColor="#ffffff"
+            android:shadowRadius="0.0"
+            android:visibility="visible" />
+    </LinearLayout>
+
+
+</RelativeLayout>

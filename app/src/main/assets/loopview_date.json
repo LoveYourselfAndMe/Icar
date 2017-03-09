@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "id": "0",
+            "descText": "传递数据纠结吗？",
+            "imgUrl": "http://f.hiphotos.baidu.com/image/pic/item/b151f8198618367a9f738e022a738bd4b21ce573.jpg",
+            "link":"https://github.com/greenrobot/EventBus",
+            "type":"ad"
+        },
+        {
+            "id": "1",
+            "descText": "OOM了肿么办，不用怕！",
+            "imgUrl": "http://h.hiphotos.baidu.com/image/pic/item/8435e5dde71190eff91e51ebcb1b9d16fdfa6019.jpg",
+            "link":"https://github.com/nostra13/Android-Universal-Image-Loader",
+            "type":"ad"
+        },
+        {
+            "id": "2",
+            "descText": "不想写sql语句唉",
+            "imgUrl": "http://h.hiphotos.baidu.com/image/pic/item/a2cc7cd98d1001e9460fd63bbd0e7bec54e797d7.jpg",
+            "link":"http://ormlite.com/sqlite_java_android_orm.shtml",
+            "type":"ad"
+        },
+        {
+            "id": "2",
+            "descText": "不想写sql语句唉",
+            "imgUrl": "http://e.hiphotos.baidu.com/image/pic/item/267f9e2f0708283803c9121dba99a9014d08f1f7.jpg",
+            "link":"http://ormlite.com/sqlite_java_android_orm.shtml",
+            "type":"ad"
+        },
+        {
+            "id": "2",
+            "descText": "不想写sql语句唉",
+            "imgUrl": "http://b.hiphotos.baidu.com/image/pic/item/21a4462309f79052e153b03e0ef3d7ca7bcbd566.jpg",
+            "link":"http://ormlite.com/sqlite_java_android_orm.shtml",
+            "type":"ad"
+        }
+
+    ]
+}
